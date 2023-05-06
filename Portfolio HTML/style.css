@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family= Krona +One &família= Montserrat:wght@400;600 &família= Roboto+Mono & display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    height: 100vh;
+    background-color: black;
+    color: #F6F6F6;
+}
+
+strong {
+    color: aqua;
+}
+
+
+h1 {
+
+    font-weight: bold;
+}
+
+span {
+    color: #22d4fd;
+    border: 1px solid #22D4FD;
+    padding: 10px;
+}
+
+.apresentacao {
+    margin: 10% 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao__conteudo {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+.apresentacao__titulo {
+    font-size: 36px;
+
+}
+
+.apresentacao__paragrafo {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif 24px;
+}
+
+.apresentacao__socialredes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.apresentacao__links__link {
+    background-color: #22D4FD;
+    width: 240px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
